@@ -244,33 +244,6 @@ model.blocks[0].attn.qkv = merged_layer
 
 ---
 
-## 🧑‍💻 Team Responsibilities
-
-### Atharv: Method & Code Integration
-- ✅ Implement SVD initialization
-- ✅ Integrate SplitLoRA into Q/K/V + MLP
-- ✅ Write unit tests
-- **Deliverable**: Tested module (`splitlora.py`, `vit_splitlora.py`, `test_splitlora.py`)
-
-### Samyak: Experiments & Baselines
-- ✅ Run LoRA / SplitLoRA / full fine-tune comparisons
-- ✅ Manage training scripts and checkpoints
-- ✅ Collect experiment logs
-- **Deliverable**: Experiment logs + reproducible scripts (`train.py`, `baselines.py`)
-
-### Manas: Ablations & Visualization
-- ✅ Produce tables and plots
-- ✅ Ablation scripts: SVD vs random init, varying r
-- ✅ Runtime cost analysis
-- **Deliverable**: Visualization tools and plots (`ablations.py`, `visualization.py`)
-
-### Pratham: Scalability & Evaluation
-- ✅ Incorporate larger datasets (CIFAR-100, ImageNet-100)
-- ✅ Implement larger ViTs
-- ✅ Layer-wise sensitivity analysis
-- 🔄 Dynamic rank strategies (future work)
-- **Deliverable**: Scalability experiments and evaluation metrics
-
 ---
 
 ## 🧪 Testing
